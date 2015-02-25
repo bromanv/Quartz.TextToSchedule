@@ -84,10 +84,12 @@ namespace SchedulerExaminer
             TextToScheduleFactory parserFactory = new TextToScheduleFactory();
             var englishParser = parserFactory.CreateEnglishParser();
             var germanParser = parserFactory.CreateGermanParser();
+            var spanishParser = parserFactory.CreateSpanishParser();
 
             ITextToSchedule textToSchedule = new MultiTextToSchedule(
                     parserFactory.CreateEnglishParser(),
                     parserFactory.CreateGermanParser(),
+                    parserFactory.CreateSpanishParser(),
                     parserFactory.CreateCronParser());
 
             string text = m.Input;

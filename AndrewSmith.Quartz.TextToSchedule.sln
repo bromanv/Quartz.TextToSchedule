@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{058CF660-BB84-4B39-BAE5-9EBE0488F107}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.TextToSchedule", "src\Quartz.TextToSchedule\Quartz.TextToSchedule.csproj", "{E58DE5CF-B066-40C4-AAA8-88620D91DE9E}"
@@ -23,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 	ProjectSection(SolutionItems) = preProject
 		documentation\SchedulerFormat.htm = documentation\SchedulerFormat.htm
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.TextToSchedule.Spanish", "Quartz.TextToSchedule.Spanish\Quartz.TextToSchedule.Spanish.csproj", "{9779EAC8-1634-4A31-B1D7-461C245815A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +54,10 @@ Global
 		{936AB2C1-D3F2-4E5A-850A-0B00DF121DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{936AB2C1-D3F2-4E5A-850A-0B00DF121DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{936AB2C1-D3F2-4E5A-850A-0B00DF121DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9779EAC8-1634-4A31-B1D7-461C245815A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9779EAC8-1634-4A31-B1D7-461C245815A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9779EAC8-1634-4A31-B1D7-461C245815A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9779EAC8-1634-4A31-B1D7-461C245815A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,5 +67,6 @@ Global
 		{552C08EB-A27F-467F-BA6A-33066C19BAFD} = {00737B36-5FD1-4D63-961D-7B9EA960D440}
 		{B7DF7106-188E-43E5-8C31-C384A415B086} = {78484D55-ED58-48E9-A3D5-313DDC06D233}
 		{936AB2C1-D3F2-4E5A-850A-0B00DF121DDA} = {F106976A-83E7-478F-AF96-B2D888F10515}
+		{9779EAC8-1634-4A31-B1D7-461C245815A8} = {78484D55-ED58-48E9-A3D5-313DDC06D233}
 	EndGlobalSection
 EndGlobal
